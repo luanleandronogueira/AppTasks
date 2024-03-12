@@ -13,5 +13,7 @@ import { TaskService } from './services/task.service';
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, TaskService],
   bootstrap: [AppComponent],
+  
 })
 export class AppModule {}
+// declarations: [AppComponent]
