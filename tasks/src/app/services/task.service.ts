@@ -1,4 +1,6 @@
 import { Injectable } from '@angular/core';
+import { Camera, CameraResultType } from '@capacitor/camera';
+// '@capacitor/camera';
 
 @Injectable({
   providedIn: 'root'
